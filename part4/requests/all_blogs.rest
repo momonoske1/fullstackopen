@@ -1,0 +1,14 @@
+GET http://localhost:3003/api/blogs
+
+
+###
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNlbG1hIiwiaWQiOiI2NWU2Mjc5ODlkYmQyMmRjOGU1ZmZmZTgiLCJpYXQiOjE3MDk1OTEyNTh9.lHJzkIadk38aFo4ATagDHvSVqy3C0UAGDWl09jEJXNc
+
+{
+    "title": "selma's story",
+    "author": "selma",
+    "url": "http://selma.com/",
+    "likes": 3
+}
